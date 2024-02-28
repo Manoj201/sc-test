@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: scania-test
-  description: sample node js app
+  name: sc-test
+  annotations:
+    github.com/project-slug: Manoj201/sc-test
 spec:
-  type: service
-  lifecycle: experimental
-  owner: Manoj-Gamachchige
+  type: other
+  lifecycle: unknown
