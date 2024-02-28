@@ -11,10 +11,3 @@ app.listen(port, (err) => {
   }
   console.log(`Onexlab app listening on port ${port}`);
 });
-
-// auth:
-//   providers:
-//     github:
-//       development:
-//         clientId: b8de9c3b13133f98bd0f
-//         clientSecret: 435a84ecb65e3050baf729bd870baec84eab700f

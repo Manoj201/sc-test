@@ -1,10 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sc-test
+  name: scania-test
+  description: This is hellow world app
   annotations:
-    github.com/project-slug: Manoj201/sc-test
+    backstage.io/dockerfile-location: /Dockerfile
+    backstage.io/techdocs-ref: url:https://github.com/Manoj201/sc-test
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
   owner: guests
