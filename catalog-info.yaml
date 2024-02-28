@@ -3,11 +3,8 @@ kind: Component
 metadata:
   name: scania-test
   description: This is hellow world app
-  metadata:
-    annotations:
-      github.com/project-slug: Manoj201/sc-test
-      backstage.io/dockerfile-location: /Dockerfile
-      backstage.io/techdocs-ref: url:https://github.com/Manoj201/sc-test
+  annotations:
+    github.com/project-slug: Manoj201/sc-test
 
 spec:
   type: service
